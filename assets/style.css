@@ -1,0 +1,22 @@
+header {
+    display: flex;
+}
+.name {
+    width: 30%;
+    border: 1px solid rgb(247, 99, 173);
+}
+#navbar {
+    display: flex;
+    width: 70%;
+    border: 1px solid blue;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+.example {
+    border: 2px solid green;
+    background-color: burlywood;
+    margin: 5px;
+}
+#aboutme {
+    color: cornsilk;
+}
