@@ -105,8 +105,8 @@ footer h2 {
     color: var(--secondary-color);
     flex-wrap: wrap;
     justify-content: left;
-    border: 5px solid var(--secondary-color);
-    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
 }
 .flex-row {
     display: flex;
