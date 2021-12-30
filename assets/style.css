@@ -79,4 +79,43 @@ footer h2 {
 /* Footer Style ENDS*/
 
 /* About Me Section Styling BEGINS */
+#about-me {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: 5px solid var(--secondary-color);
+    border-radius: 15px;
+}
+#about-me h2 {
+    font-weight: bold;
+    font-size: 25px;
+    color: var(--secondary-color);
+    margin: 15px;
+    text-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.intro img {
+    width: 450px;
+    height: 270px;
+    padding: 10px;
+    align-items: right;
+    box-shadow: 3px solid rgba(0,0,0,0.5);
+}
+.intro p {
+    color: var(--secondary-color);
+    flex-wrap: wrap;
+    justify-content: left;
+    border: 5px solid var(--secondary-color);
+    border-radius: 15px;
+}
+.flex-row {
+    display: flex;
+    text-align-last: right;
+    width: 50%;
+}
 /* About Me Section Styling ENDS */
+
+/* My Projects Styling BEGINS */
+
+
+/* My Projects Styling ENDS */
