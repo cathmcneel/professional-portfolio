@@ -1,0 +1,16 @@
+ /* Media queries are in order from largest to smallest screen size */
+
+
+@media screen and (max-width: 700px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    .name {
+       width: 100%;
+       text-align: center;
+    }
+    #navbar {
+        width: 100%;
+    }
+    }
