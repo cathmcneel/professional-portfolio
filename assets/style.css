@@ -12,7 +12,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: var(--secondary-color);
 }
-/* HEADER STYLE */
+/* Header Style BEGINS*/
 header {
     padding: 20px 35px;
     background-color: var(--primary-color);
@@ -58,32 +58,25 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
-.name {
-    width: 30%;
-    border: 1px solid;
-    font-size: larger;
+/* Header style ENDS */
+
+/* Footer Style BEGINS*/
+footer {
+    background: var(--primary-color);
     color: var(--secondary-color);
-    background-color: var(--primary-color);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-decoration: none;
-    color: var(--secondary-color);
-}
-#navbar {
+    width: 100%;
+    padding: 40px 10px;
     display: flex;
-    width: 70%;
-    border: 1px solid var(--secondary-color);
-    justify-content: flex-end;
     justify-content: space-between;
-    color: var(--primary-color);
-    background-color: var(--tertiary-color);
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
+    flex-wrap: wrap;
 }
-.example {
-    border: 2px solid green;
-    background-color: burlywood;
-    margin: 5px;
+footer h2 {
+    color: var(--secondary-color);
+    font-size: 20px;
+    margin: 0;
+    text-align: right;
 }
-#aboutme {
-    color: cornsilk;
-}
+/* Footer Style ENDS*/
+
+/* About Me Section Styling BEGINS */
+/* About Me Section Styling ENDS */
