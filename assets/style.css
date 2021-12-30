@@ -12,6 +12,9 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: var(--secondary-color);
 }
+section {
+    padding: 60px;
+}
 /* Header Style BEGINS*/
 header {
     padding: 20px 35px;
@@ -83,28 +86,33 @@ footer h2 {
     display: flex;
     flex-wrap: wrap;
     color: var(--secondary-color);
-    background-color: var(--primary-color);
+    background-color: var(--tertiary-color);
     border: 5px solid var(--secondary-color);
     border-radius: 15px;
 }
 #about-me h2 {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
     color: var(--secondary-color);
     margin: 15px;
     text-shadow: 0 0 10px rgba(0,0,0,0.2);
+
 }
+
 .intro img {
-    width: 450px;
     height: 270px;
-    padding: 10px;
     align-items: right;
-    box-shadow: 3px solid rgba(0,0,0,0.5);
+    width: 35%;
+    height: 10%;
+    padding: 20px;
+    margin: 3.5%;
+    border: 2px solid var(--secondary-color);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .intro p {
     color: var(--secondary-color);
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: right;
     margin: 20px;
     padding: 10px;
 }
@@ -116,6 +124,43 @@ footer h2 {
 /* About Me Section Styling ENDS */
 
 /* My Projects Styling BEGINS */
-
+#my-projects {
+    color: var(--secondary-color);
+    background: var(--tertiary-color);
+    padding: 20px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid var(--secondary-color);
+    border-radius: 15px;
+    justify-content: center;
+}
+.projects h2 {
+    font-size: 30px;
+    justify-content: center;
+    border: 2px solid var(--secondary-color);
+    border-radius: 15px;
+    padding: 5px;
+    margin: 15px;
+}
+.projects h3 {
+    font-size: 26px;
+    justify-content: left;
+    padding: 5px;
+    margin: 15px;
+}
+.projects img {
+    width: 40%;
+    padding: 20px;
+    margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.card {
+    align-items: left;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.card-two-reverse {
+    justify-content: right;
+}
 
 /* My Projects Styling ENDS */
